@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url("images/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px 60px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* RSVP */
+.rsvp-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 32px;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.rsvp-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
